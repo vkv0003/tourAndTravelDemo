@@ -27,8 +27,4 @@ public class PrihanshTravelApplication {
 		return new ModelMapper();
 	}
 
-
-
-	
-
 }
