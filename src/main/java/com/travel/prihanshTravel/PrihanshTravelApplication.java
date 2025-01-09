@@ -11,13 +11,24 @@ public class PrihanshTravelApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(PrihanshTravelApplication.class, args);
 
+		//call auto-generated method
+		
+
 		System.out.println("Wellcome to Prihansh Travel");
+		
 	}
+	
+
+
 
 	//ModelMapper bean
 	@Bean
 	public ModelMapper modelMapper() {
 		return new ModelMapper();
 	}
+
+
+
+	
 
 }
